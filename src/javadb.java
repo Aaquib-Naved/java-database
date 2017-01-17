@@ -260,6 +260,7 @@ public class javadb {
 			System.out.println(report);
 		}
 		catch(SQLException e) {
+			System.out.println("Constraints Violated");
 			e.printStackTrace();
 		}
 	}
@@ -336,6 +337,7 @@ public class javadb {
 			System.out.println(report);
 		}
 		catch(SQLException e) {
+			System.out.println("Constraints Violated");
 			e.printStackTrace();
 		}
 	}
